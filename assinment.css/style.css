@@ -8,6 +8,7 @@
     
     
 }
+
 body{
     background: rgb(0, 0, 0);
     /* background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%); */
@@ -436,4 +437,8 @@ footer{
     color: rgba(255, 255, 255, 0.5);
     
     padding: 35px 0px;
+}
+
+.hide{
+    display: none;
 }
