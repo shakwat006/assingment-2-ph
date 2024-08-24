@@ -18,15 +18,19 @@ body{
     font-size: 2.25rem;
     font-family: 900;
     color: rgba(230, 83, 60, 1);
-    margin-top: 50px;
+    /* margin-top: 50px; */
 }
 .nav-b{
     display: flex;
     justify-content: space-between;
-    max-width: 1000px;
-    margin: 0 auto;
+    max-width: 80%;
+    margin: 50px auto;
     
     
+}
+.humbergar{
+    margin-top: 15px;
+    display: none;
 }
 .box{
     /* border: 3px solid rgba(240, 9, 9, 0.1); */
@@ -37,7 +41,7 @@ body{
     align-items: center;
     gap: 45px;
     border: 1px solid rgba(255, 255, 255, 0.1);
-    margin: 50px;
+    /* margin: 50px; */
 }
 .btn{
     
@@ -108,7 +112,7 @@ body{
     
 }
 .banner-img{
-    max-width: 40%;
+    max-width: 100%;
     position: relative;
 }
 .img-d{
@@ -206,6 +210,8 @@ body{
     margin: 100px auto;
     padding: 40px 50px;
     display: flex;
+    /* justify-content: space-between; */
+
     
 }
 .main-p2{
@@ -229,7 +235,9 @@ body{
 
 .img-run{
     max-width: 65%;
+    
     margin-left: 240px;
+    
     
     border-radius: 18px;
 
@@ -248,6 +256,7 @@ body{
     color: rgba(255, 255, 255, 0.5);
     font-size: .9rem;
     font-weight: 400;
+    margin: 20px 0px;
 }
 .bm{
     max-width: 550px;
@@ -256,8 +265,9 @@ body{
 
 .bmi{
     display: flex;
-    max-width: 1450px;
+    max-width: 100%;
     background: rgb(34, 34, 34);
+    padding: 20px;
     margin: 0 auto;
 }
 .bmi-cal{
@@ -265,7 +275,7 @@ body{
     display: flex;
 }
 .bmi-1{
-    margin-right: 100px;
+    margin-right: 50px;
 }
 .bmi-2{
     max-width: 100%;
@@ -323,7 +333,7 @@ input::placeholder{
 
 /* main section 4 */
 .last{
-    max-width: 1100px;
+    max-width: 80%;
     margin: 0 auto;
    
 }
@@ -339,9 +349,9 @@ input::placeholder{
     
  }
 
- .img-position{
+.img-position{
     position: relative;
- }
+} 
 
 .tainer-pic{
    width: 100%;
@@ -351,7 +361,7 @@ input::placeholder{
    
    
 }
- .p{
+.p{
     width: max-content;
     position: absolute;
     top: 77%;
@@ -379,14 +389,16 @@ input::placeholder{
     color: rgba(255, 255, 255, 0.5);
     font-size: .9rem;
     font-weight: 400;
+    width: 100%;      
+    /* align-items: center; */
     text-align: center;
-    margin-bottom: 50px;
+    margin: 0 auto 50px;
 }
 footer{
     background: rgba(255, 255, 255, 0.1);
 }
 .d-flex{
-    max-width: 1100px;
+    max-width: 80%;
     margin: 88px auto 0px;
     padding: 66px 0;
     display: flex;
@@ -428,7 +440,7 @@ footer{
     margin-bottom: 35px;
 }
 .f-last{
-    max-width: 1100px;
+    max-width: 80%;
     margin: 0px auto;
     border-top: 2px solid rgba(255, 255, 255, 0.1);
     font-size: 1.25rem;
