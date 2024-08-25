@@ -1,54 +1,25 @@
-@media screen and (max-width:800px) {
-  .box{
-    gap: 10px;
-  }
-  .banner{
-    flex-direction: column;
-    
-  }
-  .banner-content{
-    max-width: 80%;
-    margin: 40px auto;
-    
-  }
-  .banner-img{
-    width: 100%;
-    margin-left: 100px;
-  }
-  .img-d{
-    top: 12%;
-    left: 28%;
-}
-.img-d-2{
-    top: 55%;
-    left: -3%;
-    padding: 5px 10px;
-
-}
-    
-}
-
-
-
-
-
-
-
-
-
-@media screen and (max-width: 576px) {
+  @media screen and (max-width: 576px) {
   
-    .box{
+      .box{
         display: none;
     }
-    .humbergar{
+      .humbergar{
         display: block;
     }
-    .banner{
+      .banner{
+      max-width: 80%;
         flex-direction: column;
+        margin: auto;
         
     }
-    .banner-h{
+      .banner-content{
+      max-width: 85%;
+    }
+      .banner-button{
+        max-width: 100%;
+        display: flex;
+      }
+      .banner-h{
         font-size: 2.25rem;
         font-weight: 900;
         
@@ -61,12 +32,13 @@
 
     }
     .banner-img{
-        width: 100%;
-        margin: auto;
-      }
+      width: 80%;
+      margin: 0px ;
+    }
+   
     .img-d{
         top: 10%;
-        left: 50%;
+        left: 55%;
     }
     .img-d-2{
         top: 45%;
@@ -74,5 +46,54 @@
         padding: 5px 10px;
 
     }
-  
-}
+    .main-h{
+      font-size: 2rem;
+      font-weight: 900;
+    }
+    .main-img{
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      max-width: 57%;
+    }
+    .main-2{
+      flex-direction: column;
+      margin: 20px;
+    }
+    .img-run{
+      margin: 30px 0px 0px;
+      max-width: 100%;
+    }
+    
+    .bmi-cal, .d-flex, .f-flex{
+      flex-direction: column;
+      
+    }
+    .bmi-cal{
+      /* margin: 50px 0px; */
+    }
+
+    .main-h3{
+      font-size: 2rem;
+      font-weight: 900;
+    }
+    .box-h3, .box-h4{
+      font-size: 1rem;
+      font-weight: 900;
+      margin: 30px 0px;
+    }
+    .input{
+      padding: 8px;
+      margin: 6px;
+
+    }
+    .father{
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+    }
+    .btn-1{
+      padding: 0px;
+    }
+    .f-flex{
+      gap: 40px;
+    }
+  }
