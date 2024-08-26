@@ -451,6 +451,9 @@ footer{
     
     padding: 35px 0px;
 }
+.span{
+    grid-column: span 2;
+}
 
 .hide{
     display: none;
